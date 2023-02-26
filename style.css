@@ -1,0 +1,372 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Mulish";
+}
+
+.navbar-item:hover {
+    background-color: inherit !important;
+    color: gray;
+    font-weight: 900;
+}
+
+.freedom {
+    max-width: 519px;
+    margin-top: 28px;
+}
+
+.hr {
+    width: 56px;
+    height: 0;
+    border: 2px solid black;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.navbar-end {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 53px;
+}
+
+.button_menu {
+    width: 239px;
+    height: 56px;
+}
+
+.card {
+    transition: all .5s;
+}
+
+.card_challenge:hover {
+    background-color: #37B44C;
+    cursor: pointer;
+    transform: translateY(-30px);
+}
+
+.card_challenge:hover .text_hover {
+    color: white !important;
+}
+
+.card_challenge:hover .fill {
+    fill: white;
+}
+
+.text-item {
+    max-width: 591px;
+    font-size: 30px;
+}
+
+.bad {
+    color: #484848;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 38px;
+}
+
+.are {
+    color: #000000;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.why {
+    font-size: 24px;
+}
+
+.bad_text {
+    max-width: 429px;
+}
+
+.column_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.span_price {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 38px;
+    color: #484848;
+    display: flex !important;
+    flex: 0 0 55% !important;
+    align-items: center;
+}
+.span_price2 {
+    display: flex !important;
+    flex: 0 0 45% !important;
+    align-items: center;
+}
+
+.partnership {
+    max-width: 450px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.button_alternative {
+    width: 200px;
+    height: 56px;
+}
+
+.container_like {
+    display: flex;
+    justify-content: center;
+}
+
+.card_like {
+    background: #FFFFFF;
+    box-shadow: -1px 25px 60px rgba(0, 0, 0, 0.11);
+    border-radius: 32px;
+    width: 1056px;
+}
+
+.button_project {
+    background: #37B44C;
+    border-radius: 28.5px;
+}
+
+.subtitle_Share {
+    max-width: 571px;
+}
+
+.button_next {
+    width: 221px;
+    height: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.title_culture {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.subtitle_culture {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.container_green {
+    height: 319px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 120px;
+    padding-top: 110px;
+}
+
+.title_green {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.span_green {
+    font-size: 25px;
+}
+
+.card_posts {
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+.image_posts {
+    border-radius: 20px 20px 0 0;
+}
+
+.link_posts {
+    text-decoration: none;
+    color: #37B44D;
+}
+
+.columns_posts {
+    gap: 36px;
+}
+
+.button_post {
+    width: 200px;
+    height: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.text_footer {
+    max-width: 446px;
+    opacity: 75%;
+}
+
+.column_footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    cursor: pointer;
+}
+
+.image_footer {
+    width: 176px;
+    height: 38.76px;
+}
+
+.footer {
+    box-sizing: border-box;
+    height: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-end {
+        gap: 10px;
+    }
+    .button_menu {
+        width: 120px;
+        height: 45px;
+        font-size: 10px;
+    }
+    .button_freedom {
+        width: 150px;
+        height: 45px;
+        font-size: 12px !important;
+    }
+    .card_challenge {
+        padding: 15px !important;
+    }
+    .span_price {
+        font-size: 30px;
+    }
+    .card_like {
+        width: 900px;
+    }
+    .card_posts {
+        min-height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .column_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .columns_footer {
+        padding-top: 0px !important;
+        display: flex !important;
+        align-items: flex-start !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column_freedom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-content_challenge {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .column_challenge {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .column_flex {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .columns_flex {
+        display: flex;
+        flex-direction: column;
+        gap: 25px !important;
+    }
+    .columns_portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_like {
+        width: 700px;
+    }
+    .columns_step {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .column_culture {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .title_green {
+        font-size: 30px !important;
+    }
+    .none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .card_like, .container_like {
+        width: 350px !important;
+    }
+    .container_green {
+        padding-left: 10px !important;
+        padding-top: 50px;
+        font-size: 18px !important;
+    }
+    .footer {
+        padding-left: 10px !important;
+        height: 280px !important;
+    }
+    .columns_footer {
+        margin:  0px !important;
+        padding: 0px !important;
+        
+    }
+    .text_footer {
+        font-size: 12px !important;
+    }
+}
+
+.responcive {
+    display: block !important;
+}
